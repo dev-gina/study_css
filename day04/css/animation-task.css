@@ -1,0 +1,45 @@
+.star {
+  width: 100px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
+
+.font {
+  width: 300px;
+  height: auto;
+  animation: upand 3s infinite;
+}
+
+@keyframes upand {
+  0% { transform: translateY(100%);
+  opacity: 0;
+}
+  100% { transform: translateY(0);
+  opacity: 1;
+  }
+}
+
+
+.ball {
+  width: 300px;
+  height: auto;
+  animation: 
+
+}
+
+
+
+
+
+
+

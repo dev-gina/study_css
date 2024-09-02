@@ -1,0 +1,32 @@
+#container {
+  position: relative;
+  width: 1000px;
+}
+
+#container .bg{
+  width: 1000px;
+}
+
+.circle {
+  position: absolute;
+  width: 80px;
+}
+
+.circle01 {
+  left : 93%;
+  bottom: 75%;
+}
+
+.circle02 {
+  bottom: 12%;
+}
+
+.circle03 {
+  left : 75%;
+  bottom: 8%;
+}
+
+.circle04 {
+  right: 55%;
+  bottom: 30%;
+}
