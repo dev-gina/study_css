@@ -1,0 +1,49 @@
+#container {
+  width: 100%;
+  height: 100vh;
+  border: solid 1px olive;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: chocolate;
+}
+
+@keyframes move-left-right {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(100px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes move-up-down {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 100px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+@media screen and (min-width:345px) and (max-width:767px){
+  .circle {
+    animation: move-up-down 2s infinite;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .circle {
+    animation: move-left-right 2s infinite;
+  }
+}

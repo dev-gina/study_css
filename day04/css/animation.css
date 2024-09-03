@@ -1,6 +1,7 @@
 
 .white {
   width: 400px;
+  /* animation : 이름 초 횟수 몇초뒤에(delay) transition*/
   animation: fade-in 2s forwards;
 }
 
